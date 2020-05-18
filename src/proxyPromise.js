@@ -1,3 +1,4 @@
+/* eslint-disable no-empty-function */
 export default class ProxyPromise {
 
     constructor() {

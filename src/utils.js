@@ -1,11 +1,11 @@
-export default class Utils{
-        /**
+export default class Utils {
+    /**
    * Parses an XML date string.
    * @param {string} dateString
    * @return {?number} The parsed date in seconds on success; otherwise, return
    *   null.
    */
-  static parseDate(dateString) {
+    static parseDate(dateString) {
         if (!dateString) {
             return null;
         }

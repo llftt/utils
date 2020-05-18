@@ -1,4 +1,11 @@
-import _ProxyPromise from '.proxyPromise'
-
-
-export const ProxyPromise = _ProxyPromise
+import _ProxyPromise from './proxyPromise';
+import _SpeedSampler from './speedSampler';
+import _XmlUtils from './xmlutils';
+import _Utils from './utils';
+import _Xml2Json from './xml2json';
+export { isSupportRawCryptoCTR } from './rawCryptoCheck';
+export const ProxyPromise = _ProxyPromise;
+export const Speedsampler = _SpeedSampler;
+export const XmlUtils  = _XmlUtils;
+export const Utils = _Utils;
+export const Xml2Json = _Xml2Json;
